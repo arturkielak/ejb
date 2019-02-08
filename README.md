@@ -23,5 +23,5 @@ To proper run setup user and group on Weblogic 12c console http://127.0.0.1:7001
 # jndi-custom-names-weblogic12c
 Customize jndi binding names in weblogic deployment descriptor weblogic-ejb-jar.xml
 
-# Java EE: XML Schemas for Java EE Deployment Descriptors
+# XML Schemas for Java EE Deployment Descriptors
 http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/javaee/index.html#6
