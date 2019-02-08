@@ -1,2 +1,4 @@
 /ejb3.1-remote-client-with-role-auth/ejb-client/target/
 /ejb3.1-remote-client-with-role-auth/ejb-module/target/
+/jndi-custom-names-weblogic12c/ejb-client/target/
+/jndi-custom-names-weblogic12c/ejb-module/target/
