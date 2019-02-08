@@ -16,7 +16,7 @@ To proper run setup user and group on Weblogic 12c console http://127.0.0.1:7001
 
 3)  Assign user to role
 
-   Security Realms -> myrealm -> Roles and Policies -> 
+    Security Realms -> myrealm -> Roles and Policies -> 
    Global Roles -> Roles -> gore2s -> 
    Add conditions -> Predicate List -> User -> Next -> User Argument Name: gore2s -> Add -> Finish -> Save
 
