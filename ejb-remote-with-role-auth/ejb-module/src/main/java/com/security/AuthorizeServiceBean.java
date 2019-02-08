@@ -5,7 +5,7 @@ import javax.ejb.SessionContext;
 import javax.ejb.Stateless;
 
 @Stateless
-public class AuthorizeServiceServiceBean implements AuthorizeService {
+public class AuthorizeServiceBean implements AuthorizeService {
 
   @Resource
   private SessionContext ctx;

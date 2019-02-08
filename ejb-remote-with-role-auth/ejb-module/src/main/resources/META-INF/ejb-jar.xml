@@ -10,15 +10,15 @@
     <method-permission>
       <role-name>gore2s</role-name>
       <method>
-        <ejb-name>AuthorizeServiceServiceBean</ejb-name>
+        <ejb-name>AuthorizeServiceBean</ejb-name>
         <method-name>*</method-name>
       </method>
     </method-permission>
   </assembly-descriptor>
   <enterprise-beans>
     <session>
-      <ejb-name>AuthorizeServiceServiceBean</ejb-name>
-      <ejb-class>com.security.AuthorizeServiceServiceBean</ejb-class>
+      <ejb-name>AuthorizeServiceBean</ejb-name>
+      <ejb-class>com.security.AuthorizeServiceBean</ejb-class>
       <mapped-name>security</mapped-name>
     </session>
   </enterprise-beans>
