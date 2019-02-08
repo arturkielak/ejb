@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns = "http://java.sun.com/xml/ns/javaee" 
+         version = "3.1"
+         xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation = "http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd">
+  <assembly-descriptor>
+    <security-role>
+      <role-name>gore2s</role-name>
+    </security-role>
+    <method-permission>
+      <role-name>gore2s</role-name>
+      <method>
+        <ejb-name>AuthorizeServiceServiceBean</ejb-name>
+        <method-name>*</method-name>
+      </method>
+    </method-permission>
+  </assembly-descriptor>
+  <enterprise-beans>
+    <session>
+      <ejb-name>AuthorizeServiceServiceBean</ejb-name>
+      <ejb-class>com.security.AuthorizeServiceServiceBean</ejb-class>
+      <mapped-name>security</mapped-name>
+    </session>
+  </enterprise-beans>
+</ejb-jar>
+
