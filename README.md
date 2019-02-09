@@ -1,7 +1,7 @@
 ### ejb3.1-remote-client-with-role-auth
 Sample remote standalone ejb client with authorization by role.
 
-To proper run **setup user and group** on Weblogic 12c console http://127.0.0.1:7001/console
+To proper run **create user and group** on Weblogic 12c console http://127.0.0.1:7001/console
 ```
 1) Create new role
 
